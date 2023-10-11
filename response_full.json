@@ -1,0 +1,226 @@
+{
+    "_type": "SearchResponse",
+    "instrumentation": {
+        "_type": "ResponseInstrumentation",
+        "pingUrlBase": "https://www.bingapis.com/api/ping?IG=AB261AB23D7342A8B516A560990D25A4&CID=31EAAAF3799A63640465B954783062D8&ID=",
+        "pageLoadPingUrl": "https://www.bingapis.com/api/ping/pageload?IG=AB261AB23D7342A8B516A560990D25A4&CID=31EAAAF3799A63640465B954783062D8&Type=Event.CPT&DATA=0"
+    },
+    "queryContext": {
+        "originalQuery": "\"Native Plants\" + site:https://www.eastpikeland.org/"
+    },
+    "webPages": {
+        "webSearchUrl": "https://www.bing.com/search?q=%22Native+Plants%22+%2b+site%3ahttps%3a%2f%2fwww.eastpikeland.org%2f",
+        "webSearchUrlPingSuffix": "DevEx,5437.1",
+        "totalEstimatedMatches": 1500,
+        "value": [
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0",
+                "name": "Native Plants - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC=%7BB6A37826-ADE2-4A08-8875-9684EDAC5E0A%7D",
+                "urlPingSuffix": "DevEx,5104.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC={B6A37826-ADE2-4A08-8875-9684...",
+                "snippet": "Native Plants. Choosing native plants is important to our ecosystem! Why use native plants. Learn about the types of native plants you can plant in PA here: Choose Native Plants PA. Native plants for a perennial garden. In Environmental Topics: Native Plants. Compost.",
+                "dateLastCrawled": "2023-09-17T05:14:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1",
+                "name": "Native Plants - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?SEC=B6A37826-ADE2-4A08-8875-9684EDAC5E0A",
+                "urlPingSuffix": "DevEx,5124.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?SEC=B6A37826-ADE2-4A08-8875-9684EDAC5E0A",
+                "snippet": "Native Plants. Compost. Ready for 100 / Clean Energy. Township History. Kimberton Village Audio Tour. Open Space Referendum. Open Space Properties. Benefits of Open Space. Trails > Kimberton Community Park. Kimberton Park Rental Applications. Ridge Road Park Project > Scavenger Hunts. Hidden River Park & Preserve >",
+                "dateLastCrawled": "2022-12-29T01:46:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2",
+                "name": "Meeting Minutes - 2021 - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?SEC=E4440084-6C74-4DA3-A58B-4DE19DCC1183",
+                "urlPingSuffix": "DevEx,5144.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?SEC=E4440084-6C74-4DA3-A58B-4DE19DCC1183",
+                "snippet": "Native Plants. Compost. Ready for 100 / Clean Energy Transition Plan > Homeowner Resources. Kimberton Village Audio Tour. Open Space Referendum. Open Space Properties. Benefits of Open Space. Trails > Kimberton Community Park. Kimberton Park Rental Applications. Ridge Road Park Project > Scavenger Hunts.",
+                "dateLastCrawled": "2023-10-09T08:00:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3",
+                "name": "FAQ's - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?Type=B_LIST&SEC=%7BB2D75F54-46AC-4F06-9346-1342A4375A94%7D",
+                "urlPingSuffix": "DevEx,5165.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?Type=B_LIST&SEC={B2D75F54-46AC-4F06-9346-1342A...",
+                "snippet": "I have a question about my taxes, who do I need to contact? I have questions pertaining to the public sewer, who should I contact? I need assistance with my public water, who can I contact? If I am concerned about the quality of my well water, where can I have it tested?",
+                "dateLastCrawled": "2023-09-20T23:47:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4",
+                "name": "EPT Yard Waste Recycling Program - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC=%7B25B7A741-7016-4ABE-BF67-8851A0E86138%7D",
+                "urlPingSuffix": "DevEx,5188.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC={25B7A741-7016-4ABE-BF67-8851A...",
+                "snippet": "On the 2 acre site, 1.25 acres is provided for township residents to drop off leaf and grass waste with the other .75 acre for other yard waste. The sites are marked clearly with signage on the type of materials that are accepted for recycling. Specifically, the program allows for residents to drop-off leaves, yard waste, tree brush, branches ...",
+                "dateLastCrawled": "2023-10-03T20:13:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5",
+                "name": "Tax Collectors - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC=%7BA21994AF-60C0-4C53-9E6C-4011E29DA908%7D",
+                "urlPingSuffix": "DevEx,5209.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC={A21994AF-60C0-4C53-9E6C-4011E...",
+                "snippet": "Native Plants. Compost. Ready for 100 / Clean Energy Transition Plan > Homeowner Resources. Kimberton Village Audio Tour. Open Space Referendum. Open Space Properties. Benefits of Open Space. Trails > Kimberton Community Park. Kimberton Park Rental Applications. Ridge Road Park Project > Scavenger Hunts.",
+                "dateLastCrawled": "2023-10-08T06:35:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.6",
+                "name": "Meeting Minutes - 2022 - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC=%7B93E7A5FD-7D6C-40A0-A317-E9809224AC2C%7D",
+                "urlPingSuffix": "DevEx,5230.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?Type=B_BASIC&SEC={93E7A5FD-7D6C-40A0-A317-E...",
+                "snippet": "Native Plants. Compost. Ready for 100 / Clean Energy. Kimberton Village Audio Tour. Open Space Referendum. Open Space Properties. Benefits of Open Space. Trails > Kimberton Community Park. Kimberton Park Rental Applications. Ridge Road Park Project > Scavenger Hunts. Hidden River Park & Preserve > Citizen Science.",
+                "dateLastCrawled": "2023-09-11T01:21:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.7",
+                "name": "East Pikeland - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/?SEC=C8ED01E5-E7B2-4921-B259-878EA1D21020",
+                "urlPingSuffix": "DevEx,5251.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/?SEC=C8ED01E5-E7B2-4921-B259-878EA1D21020",
+                "snippet": "East Pikeland. Office: The office is closed to the public until further notice. We are still checking our emails and voicemail. If you have building permits or forms to drop off please leave them in the box by the front door. Yard Waste: The yard is still open during regular business hours M-F 7am-3pm and on Saturday 9am-1pm.",
+                "dateLastCrawled": "2023-09-16T04:36:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.8",
+                "name": "News - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?SEC=433E6664-3B8C-4651-A2A2-B9EA85578549&Type=B_PR",
+                "urlPingSuffix": "DevEx,5274.1",
+                "datePublished": "2023-09-07T00:00:00.0000000",
+                "datePublishedDisplayText": "Sep 7, 2023",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?SEC=433E6664-3B8C-4651-A2A2-B9EA85578549&Type=B_PR",
+                "snippet": "Monday, November 1, 2021 at 8:10 AM. East Pikeland Township Memorabilia. Wednesday, October 13, 2021 at 2:55 PM. Line Paint Cleaning guidelines. Friday, October 8, 2021 at 7:30 AM. EPT Newsletter Fall & Winter 2021. Monday, September 13, 2021 at 10:00 AM. EPT Graham Lease. Thursday, August 12, 2021 at 12:50 PM.",
+                "dateLastCrawled": "2023-10-10T06:01:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            },
+            {
+                "id": "https://api.bing.microsoft.com/api/v7/#WebPages.9",
+                "name": "Park & Recreation Board - East Pikeland Township",
+                "url": "https://www.eastpikeland.org/index.asp?Type=B_DIR&SEC=%7BB4ED4F96-A97A-47CD-BDDA-AACDB4BF8FC4%7D",
+                "urlPingSuffix": "DevEx,5295.1",
+                "isFamilyFriendly": true,
+                "displayUrl": "https://www.eastpikeland.org/index.asp?Type=B_DIR&SEC={B4ED4F96-A97A-47CD-BDDA-AACDB4...",
+                "snippet": "Park & Recreation Board. The Park & Rec Board helps plan and implement recreation projects, for both parks and trails; they make recommendations to the Board of Supervisors on park development; and they assist with two main community events each year: the Easter Egg Hunt and Family Movie Night. Township Planner Ed Theurkauf, working with the ...",
+                "dateLastCrawled": "2023-09-24T21:00:00.0000000Z",
+                "fixedPosition": false,
+                "language": "en",
+                "isNavigational": false
+            }
+        ]
+    },
+    "rankingResponse": {
+        "mainline": {
+            "items": [
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 0,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 1,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 2,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 3,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 4,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 5,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 6,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.6"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 7,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.7"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 8,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.8"
+                    }
+                },
+                {
+                    "answerType": "WebPages",
+                    "resultIndex": 9,
+                    "value": {
+                        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.9"
+                    }
+                }
+            ]
+        }
+    }
+}
