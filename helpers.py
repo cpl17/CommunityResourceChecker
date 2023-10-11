@@ -1,6 +1,9 @@
 import requests 
 import json
 import time
+import openai
+from bs4 import BeautifulSoup
+
 
 
 def make_request(search_string,prefix,credentials):
@@ -34,3 +37,44 @@ def make_request(search_string,prefix,credentials):
     else:
         print(f"Request failed with status code {response.status_code}")
         return None
+    
+
+def GPT_Summary(text):
+
+    openai.api_key_path = "./GPT_ENV/.env"
+
+    # #Get blurb using ChatGPT API
+    # response = openai.Completion.create(
+    #     model="text-davinci-003",
+    #     prompt=f"Summarize {text} in 50 characters or less",
+    #     temperature=0.4,
+    #     max_tokens=50000,
+    #     top_p=1,
+    #     frequency_penalty=0,
+    #     presence_penalty=0
+    # )
+
+    # blurb = response["choices"][0]["text"].strip()
+    
+    # time.sleep(2)
+
+    return "blurb"
+
+
+def get_webpage_text(URL):
+
+    time.sleep(1)
+
+    response = requests.get(URL)
+
+    if response.status_code == 200:
+        
+        soup = BeautifulSoup(response.text,'html.parser')
+
+        #TODO:Properly pre-process this text to optimize likliehood of good summary
+        webpage_text = soup.get_text()
+        return webpage_text.replace("\n","")
+    
+    else:
+        return "Error"
+
