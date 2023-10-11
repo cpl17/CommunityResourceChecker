@@ -2,13 +2,14 @@ import requests
 import json
 import time
 
-def make_request(search_string,prefix):
+
+def make_request(search_string,prefix,credentials):
 
     time.sleep(1.5)
 
     url = "https://api.bing.microsoft.com/v7.0/custom/search"
     headers = {
-        "Ocp-Apim-Subscription-Key": "e8a37dae9cbe4759bcb3689bb35c24ea"
+        "Ocp-Apim-Subscription-Key": f"{credentials}"
     }
 
     # Define the query parameters

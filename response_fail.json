@@ -1,1 +1,12 @@
-{"_type": "SearchResponse", "instrumentation": {"_type": "ResponseInstrumentation", "pingUrlBase": "https://www.bingapis.com/api/ping?IG=D46223EA1844451683B2D5D1D631BDF1&CID=36DB6DD3203E6DD72E067E7421036C36&ID=", "pageLoadPingUrl": "https://www.bingapis.com/api/ping/pageload?IG=D46223EA1844451683B2D5D1D631BDF1&CID=36DB6DD3203E6DD72E067E7421036C36&Type=Event.CPT&DATA=0"}, "queryContext": {"originalQuery": "\"Dark Skies\" + site:https://kennett.pa.us/"}, "rankingResponse": {}}
+{
+    "_type": "SearchResponse",
+    "instrumentation": {
+        "_type": "ResponseInstrumentation",
+        "pingUrlBase": "https://www.bingapis.com/api/ping?IG=D46223EA1844451683B2D5D1D631BDF1&CID=36DB6DD3203E6DD72E067E7421036C36&ID=",
+        "pageLoadPingUrl": "https://www.bingapis.com/api/ping/pageload?IG=D46223EA1844451683B2D5D1D631BDF1&CID=36DB6DD3203E6DD72E067E7421036C36&Type=Event.CPT&DATA=0"
+    },
+    "queryContext": {
+        "originalQuery": "\"Dark Skies\" + site:https://kennett.pa.us/"
+    },
+    "rankingResponse": {}
+}

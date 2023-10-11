@@ -4,11 +4,14 @@ import pandas as pd
 import numpy as np
 from helpers import make_request
 
+from dotenv import load_dotenv
+import os
 
-#TODO:Read in data
+load_dotenv()
+credentials = os.getenv("SUBSCRIPTION_KEY")
+
+
 #Read in the data from the excel sheet - URLS and Search Strings
-#Create dict of topic and subtopic with lists of search strings for each
-
 URLsToScrape = pd.read_excel("input.xlsx",sheet_name="INPUT_URLsToScrape")
 TopicsToLookFor = pd.read_excel("input.xlsx",sheet_name="INPUT_TopicsToLookFor")
 
@@ -45,7 +48,7 @@ for _,row in URLsToScrape.iterrows():
                 continue
             ###############################
 
-            json_response_dict = make_request(search_string,row["google prefix"])
+            json_response_dict = make_request(search_string,row["google prefix"],credentials)
 
             if (json_response_dict is None) | ("webPages" not in json_response_dict):
                 continue
