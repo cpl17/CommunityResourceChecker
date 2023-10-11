@@ -30,8 +30,9 @@ for _, row in TopicsToLookFor.iterrows():
 
 output_df = None
 
-
+###Remove this after testing###
 townships_searchstring = [("East Pikeland","Native Plants"), ("Easttown","Rain Garden"),("East Pikeland","Environmental Advisory Council"),("Kennett","Dark Skies"),("Kennett","Rain Garden")]
+###############################
 
 for _,row in URLsToScrape.iterrows():
 
