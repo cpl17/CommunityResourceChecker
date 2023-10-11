@@ -49,7 +49,7 @@ for _,row in URLsToScrape.iterrows():
 
             json_response_dict = make_request(search_string,row["google prefix"],credentials)
 
-            if (json_response_dict is None) | ("webPages" not in json_response_dict):
+            if "webPages" not in json_response_dict:
                 continue
 
             #TODO:Should broaden this check by preprocessing the name to catch names like Native-Invasive-Plants, Native-Plants

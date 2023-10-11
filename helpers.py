@@ -36,7 +36,7 @@ def make_request(search_string,prefix,credentials):
         return response.json()
     else:
         print(f"Request failed with status code {response.status_code}")
-        return None
+        return {}
     
 
 def GPT_Summary(text):
