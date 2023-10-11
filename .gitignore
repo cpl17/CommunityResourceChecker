@@ -1,2 +1,3 @@
 .env
 GPT_ENV
+__pycache__
