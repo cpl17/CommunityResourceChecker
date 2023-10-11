@@ -78,9 +78,9 @@ for _,row in URLsToScrape.iterrows():
                 else:
                     output_df = pd.concat([output_df,new_row],ignore_index=True)
 
-output_df = pd.read_csv("output.csv")
+# output_df = pd.read_csv("output.csv")
 
-#Write to 
+#Update Ouput with GPT Summary
 for i,url in enumerate(output_df["URL"]):
 
     webpage_text = get_webpage_text(url)
