@@ -7,6 +7,7 @@ import os
 
 load_dotenv()
 credentials = os.getenv("SUBSCRIPTION_KEY")
+config = os.getenv("CUSTOM_CONFIG")
 
 
 #Read in the data from the excel sheet - URLS and Search Strings
@@ -47,7 +48,7 @@ for _,row in URLsToScrape.iterrows():
                 continue
             ###############################
 
-            json_response_dict = make_request(search_string,row["google prefix"],credentials)
+            json_response_dict = make_request(search_string,row["google prefix"],credentials,config)
 
             if "webPages" not in json_response_dict:
                 continue

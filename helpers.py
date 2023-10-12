@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 
-def make_request(search_string,prefix,credentials):
+def make_request(search_string,prefix,credentials,config):
 
     time.sleep(1.5)
 
@@ -18,7 +18,7 @@ def make_request(search_string,prefix,credentials):
     # Define the query parameters
     params = {
         "q": f'"{search_string}" + {prefix}',
-        "customconfig": "53068398-472d-48e0-b1d4-95ac66b7eaf9",
+        "customconfig": f"{config}",
         "mkt": "en-US",
         "answerCount":1
     }
@@ -41,7 +41,7 @@ def make_request(search_string,prefix,credentials):
 
 def GPT_Summary(text):
 
-    openai.api_key_path = "./GPT_ENV/.env"
+    # openai.api_key_path = "./GPT_ENV/.env"
 
     # #Get blurb using ChatGPT API
     # response = openai.Completion.create(
@@ -71,7 +71,7 @@ def get_webpage_text(URL):
         
         soup = BeautifulSoup(response.text,'html.parser')
 
-        #TODO:Properly pre-process this text to optimize likliehood of good summary
+        #TODO:Properly pre-process this text to optimize likelihood of good summary
         webpage_text = soup.get_text()
         return webpage_text.replace("\n","")
     
